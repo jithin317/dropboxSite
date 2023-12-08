@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Authentication</title>
+    <link rel="stylesheet" href="../style/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login cont" style="display: none" id="login">
+        <div class="image">
+          <img src="../image/login-bg.jpg" />
+        </div>
+        <div class="matter">
+          <h1 class="text">Welcome Back...</h1>
+          <input type="email" placeholder="Email" id="lMail" required />
+          <input type="password" placeholder="Password" id="lPass" required />
+          <button class="help" id="loginHelp">
+            New here..? Sign-up to continue
+          </button>
+          <button class="log-btn btn" id="lBtn">Login</button>
+        </div>
+      </div>
+      <div class="signup cont" id="signUp">
+        <div class="matter">
+          <h1 class="text">What's Up...</h1>
+          <input type="text" placeholder="Name" required />
+          <input type="email" placeholder="Email" id="sMail" required />
+          <input type="password" placeholder="Password" id="sPass" required />
+          <button class="help" id="signinHelp">
+            Already have an account? Login to continue
+          </button>
+          <button class="sign-btn btn" id="sBtn">Signup</button>
+        </div>
+        <div class="image">
+          <img src="../image/signup-bg.jpg" />
+        </div>
+      </div>
+    </div>
+    <script type="module" src="../src/script.js"></script>
+  </body>
+</html>

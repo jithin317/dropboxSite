@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f2f2f2;
+}
+
+nav {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.3rem;
+  background: #2c323d;
+}
+
+nav h2 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 2rem;
+  cursor: pointer;
+  user-select: none;
+  letter-spacing: 3px;
+}
+
+nav div {
+  margin-right: 5rem;
+  color: white;
+  width: 15rem;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+nav div p {
+  font-size: 1.3rem;
+}
+
+.hero {
+  position: absolute;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  color: #2c323d;
+}
+.hero span {
+  text-transform: uppercase;
+}
+nav div select {
+  border: 1px solid white;
+  background: transparent;
+  color: #f2f2f2;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+}
+
+.matter {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 10rem;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.container {
+  width: 30rem;
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropbox {
+  border: 3px solid gray;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  border-style: dashed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+  padding: 1rem;
+  user-select: none;
+}
+
+.dropbox label {
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  height: 100%;
+}
+.main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+.files {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.files ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.files ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  width: 70%;
+  font-size: 1.3rem;
+}
+.item {
+  border-top: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.item div button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background: #ff4f5a;
+  color: white;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  outline: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+}
+.item div label {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background: rgb(40, 208, 40);
+  color: white;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  outline: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+}

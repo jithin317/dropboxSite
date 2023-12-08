@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.background {
+  width: 80rem;
+  height: 40rem;
+  border-radius: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.bg {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  user-select: none;
+  background: linear-gradient(#000, #000);
+}
+.content {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.gradient {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.7)
+  );
+  position: absolute;
+  border-radius: inherit;
+}
+.content h1 {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 3rem;
+  line-height: 5rem;
+}
+.content h3 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.2rem;
+}
+.button {
+  position: absolute;
+  text-align: center;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.5rem 1.8rem;
+  background: #fff;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+.button a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+}
+.container {
+  width: 60rem;
+  height: 40rem;
+}
+.cont {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.image {
+  height: 38rem;
+  width: 30rem;
+}
+.image img {
+  height: 100%;
+  width: 100%;
+}
+.matter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 30rem;
+  line-height: 8rem;
+}
+.login .matter h1 {
+  color: #494bf5;
+  font-size: 3rem;
+}
+.signup .matter h1 {
+  color: #ff4f5a;
+  font-size: 3rem;
+}
+.matter input {
+  padding: 0.5rem 1rem;
+  width: 18rem;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  line-height: 2rem;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.help {
+  border: none;
+  background: transparent;
+  color: blue;
+  cursor: pointer;
+  line-height: 3rem;
+}
+.log-btn {
+  cursor: pointer;
+  background: rgb(230, 230, 18);
+  border: none;
+  border-radius: 10rem;
+  font-weight: bold;
+  padding: 0.8rem 9em;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.6);
+}
+.sign-btn {
+  padding: 0.8rem 7em;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  background: rgb(40, 208, 40);
+  border: none;
+  border-radius: 10rem;
+}
+.btn {
+  letter-spacing: 2px;
+}
+.text {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}

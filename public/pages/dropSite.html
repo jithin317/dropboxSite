@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DropSite</title>
+    <link rel="stylesheet" href="../style/dropSite.css" />
+  </head>
+  <body>
+    <nav>
+      <h2>DROPSITE.AI</h2>
+      <div>
+        <p id="top-name"></p>
+        <select id="logOutBtn">
+          <option selected>LogOut</option>
+        </select>
+      </div>
+    </nav>
+    <div class="hero">
+      <p>Welcome Back, <span id="name"></span></p>
+    </div>
+    <div class="matter">
+      <div class="container">
+        <div class="dropbox">
+          <label for="inputFile" class="drop" id="drop-box">
+            <div class="content">
+              <img src="../image/drop-icon.png" />
+              <p>Choose or drop required file in the dropbox</p>
+            </div>
+          </label>
+          <input style="display: none" id="inputFile" type="file" accept="*" />
+        </div>
+      </div>
+      <div class="main">
+        <div class="files">
+          <ul id="fileList"></ul>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="../src/dropSite.js"></script>
+  </body>
+</html>
